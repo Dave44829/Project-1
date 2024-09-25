@@ -4,8 +4,8 @@
 background-size: cover; margin: 0%;}
 
 
-.headerContent {margin-left: 30%;
-margin-right: 30%;
+.headerContent {width: 80%;
+margin: auto;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -15,9 +15,15 @@ margin-bottom: 10%}
 
 .headerButton {background-color: #5AB963;
 font-size: larger;
-font-weight: bold; padding: 4%;
+font-weight: bold; padding: 2%;
+padding-left: 3%;
+padding-right: 3%;
 color: white; border-radius: 6%;
+margin-bottom: 1%;
 }
+
+.headerImg {width: 15%;
+margin: 0%;}
 
 .topHeaderButton {background-color: transparent;
 border: solid white;
@@ -27,10 +33,13 @@ padding-top: 15%;}
 
 
 .text1 {color: white;
-text-align: center;}
+text-align: center;
+font-size: 5rem;
+margin-bottom: 2%;}
 
-.paragraph1 {color: white;
-text-align: center;}
+.paragraph1 {color: rgb(235, 231, 231);
+text-align: center;
+font-size: 1.5rem;}
 
 a {text-decoration: none;
 color: white}
@@ -72,7 +81,8 @@ margin-top: 7%;}
 .paragraph3 {text-align: center;
 margin-top: 5%;
 font-size: large;
-margin-bottom: 3%;}
+margin-bottom: 3%;
+padding-bottom: 2.5%;}
 
 
 
@@ -90,3 +100,102 @@ width: 70%;
 display: flex;
 flex-direction: column;
 margin: auto;}
+
+
+.row1{margin-left: -8%;}
+
+.row2 {padding-left: 25%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER FOR MOBILE */
+
+@media only screen and (max-width: 600px) {
+    .headerButton {background-color: #e21111;
+        font-size: larger;
+        font-weight: bold; padding: 4%;
+        color: white; border-radius: 6%;
+        }
+
+
+    .text1 {color: white;
+        text-align: center; 
+        font-size: 2rem;
+        margin-bottom: 0%;}
+            
+    .paragraph1 {color: white;
+        text-align: center; 
+    font-size: 1rem ;
+        width: 70%;}
+
+
+    .headerImg {width: 40%;
+        margin: 0%;}
+
+
+
+
+/* DIV 2 FOR MOBILE */
+
+.paragraph2 {font-size: 1.5rem;
+    padding-top: 10%;
+    margin: 0%;
+    padding-bottom: 3%;}
+
+
+.grid2 {display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 5%;}
+    
+.paragraph3 {text-align: center;
+    width: 64%;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 1rem;
+    margin-bottom: 3%;}
+
+
+
+    /* DIV 3 FOR MOLBILE */
+
+.grid3 {display: grid;
+        grid-template-columns: 1fr ;
+        padding-top: 5%;}
+        
+.text2 {font-size: larger;}
+        
+.bottomlink { align-items: center;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;}
+
+.row1 {margin-left: 0%;}
+
+.row2 {padding-left: 0%;
+margin-bottom: -150%;
+padding-top: 70%;}
+
+.rowImg1 {width: 100%;}
+
+.rowImg2 {width: 100%;
+    margin-bottom: 60%;}
+}
