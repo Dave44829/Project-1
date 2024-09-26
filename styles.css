@@ -146,7 +146,7 @@ margin: auto;}
         width: 70%;}
 
 
-    .headerImg {width: 90%;
+    .headerImg {width: 60%;
         margin: 0%;}
 
 
@@ -191,11 +191,11 @@ margin: auto;}
 .row1 {margin-left: 0%;}
 
 .row2 {padding-left: 0%;
-margin-bottom: -150%;
+margin-bottom: -160%;
 padding-top: 70%;}
 
-.rowImg1 {width: 90%;}
+.rowImg1 {width: 100%;}
 
-.rowImg2 {width: 90%;
-    margin-bottom: 60%;}
+.rowImg2 {width: 100%;
+    margin-bottom: 70%;}
 }
