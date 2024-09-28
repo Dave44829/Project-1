@@ -22,7 +22,7 @@ color: white; border-radius: 6%;
 margin-bottom: 1%;
 }
 
-.headerImg {width: 15%;
+.headerImg {width: 20%;
 margin: 0%;}
 
 .topHeaderButton {background-color: transparent;
@@ -59,9 +59,10 @@ margin: auto;
 .container {margin: auto;
 width: 90%;}
 
-.paragraph2 {font-size:xx-large;
+.paragraph2 {font-size:2rem;
 padding-top: 10%;
 margin: 0%;
+margin-right: 25%;
 padding-bottom: 3%;}
 
 
@@ -80,10 +81,14 @@ margin-top: 7%;}
 
 .paragraph3 {text-align: center;
 margin-top: 5%;
-font-size: large;
+font-size: 1.2rem;
 margin-bottom: 3%;
+margin-left: 20%;
+margin-right: 20%;
 padding-bottom: 2.5%;}
 
+
+.bi {margin-top: 9%;}
 
 
 
@@ -93,7 +98,9 @@ padding-bottom: 2.5%;}
 grid-template-columns: 1fr 1fr;
 padding-top: 5%;}
 
-.text2 {font-size: larger;}
+.text2 {font-size: 1.2rem;
+margin-left: 10%;
+margin-right: 5%;}
 
 .bottomlink { align-items: center;
 width: 70%;
@@ -106,14 +113,7 @@ margin: auto;}
 
 .row2 {padding-left: 25%;}
 
-
-
-
-
-
-
-
-
+.rowImg1 {padding-right: 15%;}
 
 
 
@@ -146,7 +146,7 @@ margin: auto;}
         width: 70%;}
 
 
-    .headerImg {width: 60%;
+    .headerImg {width: 50%;
         margin: 0%;}
 
 
@@ -180,7 +180,9 @@ margin: auto;}
         grid-template-columns: 1fr ;
         padding-top: 5%;}
         
-.text2 {font-size: larger;}
+.text2 {font-size: 1rem;
+margin-right: 15%;
+margin-left: 0%;}
         
 .bottomlink { align-items: center;
         width: 70%;
@@ -191,11 +193,177 @@ margin: auto;}
 .row1 {margin-left: 0%;}
 
 .row2 {padding-left: 0%;
-margin-bottom: -160%;
+margin-bottom: -130%;
 padding-top: 70%;}
 
 .rowImg1 {width: 100%;}
 
 .rowImg2 {width: 100%;
-    margin-bottom: 70%;}
+    margin-bottom: 40%;}
+}
+
+
+
+
+
+
+
+
+
+/* RESPONSIVENESS FOR PORTRAIT TABLET */
+
+@media only screen and (min-width: 600px) and (max-width: 768px)
+{
+    .headerButton {background-color: #4816d1;
+        font-size: larger;
+        font-weight: bold; padding: 4%;
+        color: white; border-radius: 6%;
+        }
+
+
+    .text1 {color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 0%;}
+            
+    .paragraph1 {color: white;
+        text-align: center; 
+    font-size: 1.1rem ;
+        width: 70%;}
+
+
+    .headerImg {width: 30%;
+        margin: 0%;}
+
+
+        /* DIV 2 FOR MOBILE */
+
+.paragraph2 {font-size: 1.5rem;
+    padding-top: 10%;
+    margin: 0%;
+    margin-right: 25%;
+    padding-bottom: 3%;}
+
+
+.grid2 {display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 5%;}
+    
+.paragraph3 {text-align: center;
+    width: 64%;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1rem;
+    margin-bottom: 3%;}
+
+
+
+    /* DIV 3 FOR MOLBILE */
+
+.grid3 {display: grid;
+        grid-template-columns: 1fr ;
+        padding-top: 5%;}
+        
+.text2 {font-size: larger;
+margin-right: 15%;
+margin-left: 0%;}
+        
+.bottomlink { align-items: center;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;}
+
+.row1 {margin-left: 0%;}
+
+.row2 {padding-left: 0%;
+margin-bottom: -110%;
+padding-top: 70%;}
+
+.rowImg1 {width: 100%;}
+
+.rowImg2 {width: 100%;
+    margin-bottom: 30%;}
+}
+
+
+
+
+/* RESPONSIVENESS FOR LANSCPAE TABLET */
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+    .headerButton {background-color: #caf860;
+        font-size: larger;
+        font-weight: bold; padding: 3%;
+        color: white; border-radius: 6%;
+        }
+
+
+    .text1 {color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 0%;}
+            
+    .paragraph1 {color: white;
+        text-align: center; 
+    font-size: 1.1rem ;
+        width: 70%;}
+
+
+    .headerImg {width: 30%;
+        margin: 0%;}
+
+
+
+        /* DIV 2 FOR MOBILE */
+
+.paragraph2 {font-size: 1.5rem;
+    padding-top: 10%;
+    margin: 0%;
+    margin-right: 25%;
+    padding-bottom: 3%;}
+
+
+.grid2 {display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 5%;}
+    
+.paragraph3 {text-align: center;
+    width: 64%;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 1rem;
+    margin-bottom: 3%;}
+
+
+
+    /* DIV 3 FOR MOLBILE */
+
+.grid3 {display: grid;
+        grid-template-columns: 1fr ;
+        padding-top: 5%;}
+        
+.text2 {font-size: larger;
+margin-right: 15%;
+margin-left: 0%;}
+        
+.bottomlink { align-items: center;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;}
+
+.row1 {margin-left: 0%;}
+
+.row2 {padding-left: 0%;
+margin-bottom: -115%;
+padding-top: 70%;}
+
+.rowImg1 {width: 100%;}
+
+.rowImg2 {width: 100%;
+    margin-bottom: 30%;}
 }
